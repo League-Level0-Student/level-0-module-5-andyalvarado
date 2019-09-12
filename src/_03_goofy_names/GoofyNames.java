@@ -23,10 +23,10 @@ String goof =JOptionPane.showInputDialog("ENTER NAME HERE");
 			System.out.println(letter);
 			
 		if (i%2==0) {
-			
+		goofyName+=letter.toUpperCase();	
 		}	
 		else {
-			
+			goofyName+=letter.toLowerCase();	
 		}	
 			
 		}
@@ -42,7 +42,7 @@ String goof =JOptionPane.showInputDialog("ENTER NAME HERE");
 			
 			// 6. ADD this String  (containing 1 char) to the goofyName String
 
-		
+		JOptionPane.showMessageDialog(null,goofyName);
 		// 7. Use pop-up to show user their Goofy name
 
 	}
